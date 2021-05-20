@@ -33,7 +33,7 @@
                         android:layout_gravity="center"
                         android:scaleType="fitXY"
 
-                        android:src="@drawable/screen_recoder_icon"
+                        android:src="@drawable/logo1"
                          />
 
                     <TextView
@@ -86,7 +86,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="15dp"
                         android:layout_toRightOf="@+id/iv_navhome"
-                        android:text="Home"
+                        android:text="@string/nav_home"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -116,7 +116,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="15dp"
                         android:layout_toRightOf="@+id/iv_my_recording"
-                        android:text="My Recording"
+                        android:text="@string/nav_my_recording"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -135,7 +135,6 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:src="@drawable/ic_gallery"
-
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="15dp"
                         />
@@ -147,7 +146,7 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="15dp"
                         android:layout_toRightOf="@+id/iv_my_gallery"
-                        android:text="Gallery"
+                        android:text="@string/nav_gallery"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -184,7 +183,7 @@
                         android:layout_marginLeft="15dp"
 
                         android:layout_toRightOf="@+id/iv_navsetting"
-                        android:text="Setting"
+                        android:text="@string/nav_setting"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -216,7 +215,7 @@
                         android:layout_marginLeft="15dp"
 
                         android:layout_toRightOf="@+id/iv_nav_privacypolicy"
-                        android:text="Privacy Policy"
+                        android:text="@string/nav_privacy_policy"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -245,10 +244,9 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
                         android:layout_marginLeft="15dp"
-
                         android:layout_marginBottom="15dp"
                         android:layout_toRightOf="@+id/iv_navaboutus"
-                        android:text="About Us"
+                        android:text="@string/nav_about_us"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"
@@ -283,11 +281,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
-
                         android:layout_marginLeft="15dp"
                         android:layout_marginBottom="13dp"
                         android:layout_toRightOf="@+id/iv_navshareapp"
-                        android:text="Share App"
+                        android:text="@string/nav_share_app"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold" />
@@ -315,10 +312,9 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
                         android:layout_marginLeft="15dp"
-
                         android:layout_marginBottom="15dp"
                         android:layout_toRightOf="@+id/iv_nav_rateapp"
-                        android:text="Rate App"
+                        android:text="@string/nav_rate_app"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold" />
@@ -348,7 +344,7 @@
                         android:layout_marginLeft="15dp"
 
                         android:layout_toRightOf="@+id/iv_nav_moreapp"
-                        android:text="More App"
+                        android:text="@string/nav_more_app"
                         android:textColor="@color/colorPink"
                         android:textSize="18dp"
                         android:textStyle="bold"

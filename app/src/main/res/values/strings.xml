@@ -37,5 +37,14 @@
 
 
     <string name="draw_other_app_permission_denied">Draw over other app permission not available. App won\'t work without permission. Please try again.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_my_recording">My Recording</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_share_app">Share App</string>
+    <string name="nav_rate_app">Rate App</string>
+    <string name="nav_more_app">More App</string>
 
 </resources>
